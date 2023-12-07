@@ -1,16 +1,12 @@
 import "./App.css";
-import Home from "./Components/Home/Home";
-import About from "./Components/About/About";
-import Contact from "./Components/Contact/Contact";
-import NavBar from "./Components/Navigationbar/NavBar";
+import About from "./pages/About/About";
+import Projects from "./pages/Home/Projects";
+import Contact from "./pages/Contact/Contact";
 
 function App() {
-  addEventListener("keypress", (e) => {
-    console.log(e.key );
-  })
   return (
     <div className="App">
-      <Home />
+      <Projects />
       <About />
       <Contact />
     </div>
